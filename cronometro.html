@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cronometro virtual</title>
+    <link rel="stylesheet" href="cronometro.css"/>
+</head>
+<body> 
+    <section>
+        <div class="container">
+            <h1>Seja bemvindo ao cronometro virtual</h1>
+            <p>Clique em iniciar para iniciar a sua contagem</p>
+        </div>
+    </section>
+    <aside>
+    <div class="options">
+        <div class="icon">vc</div>
+        <div class="virtual">Virtual cronometry</div>
+        <form>
+             <div>
+                <input type="button" name="start"  class="button" id="startButton" value="iniciar">
+                </div>
+            <div>
+                <input type="button" name="pause"  class="button" id="pauseButton" value="pausar">
+            </div>
+            <div>
+                <input type="button" name="reset"  class="button" id="resetButton" value="reiniciar">
+            </div>
+        </form>
+    </div>
+</aside>
+    <section>
+        <div id="res">
+            00:00:00 s
+        </div>
+    </section>
+    <script src="cronometro.js"></script>
+</body>
+</html>

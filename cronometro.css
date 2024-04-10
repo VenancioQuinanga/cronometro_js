@@ -1,0 +1,97 @@
+/*Body*/
+body{
+    background-color: rgba(0, 0, 0, 0.863);
+}
+/*Options where there're the form and buttons*/
+.options{
+    float: left;
+    background-color: darkslategrey;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    height: 100%;
+}
+/*Form where there're the buttons*/
+form{
+    margin-top: 50px;
+    border-bottom: black 1px solid;
+    padding-bottom: 50px;
+}
+/*The buttons*/
+.button {
+    font-weight: bold;
+    text-align: center;
+    background-color: gold;
+    width: 273.7px;
+    height: 40px;
+    margin-top: 1px;
+    position: relative;
+    margin-left: 0;
+    cursor: pointer;
+    outline: none;
+}
+/*The container welcome*/
+.container{
+    margin-top: 0;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    float: right;
+    width: 85%;
+    height: 35%;
+}
+
+.container p{
+    opacity: 45%;
+}
+
+ .container h1{
+    opacity: 98%;
+}
+/*Virtual cronometry icon*/
+.icon{
+    color: white;
+    font-size: 16pt;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #ccc;
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-right: 5px;
+    float: left;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    padding-left: 3.5px;
+    padding-right: 3.5px;
+    border: 2px solid gold;
+    border-radius: 400px;
+}
+/*Virtual cronometry*/
+.virtual{
+    margin-top: 13.5px;
+    color: #fff;
+    font-style: italic;
+}
+/*Circle or cronometry*/
+#res{
+    font-size: 16pt;
+    color: black;
+    font-weight: bold;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    border: #ccc solid 1px;
+    width: 30%;
+    margin-top: 50px;
+    bottom: 0;
+    float: right;
+    margin-right: 350px;
+    padding-top: 224px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 224px;
+    border-radius: 500px;
+}
